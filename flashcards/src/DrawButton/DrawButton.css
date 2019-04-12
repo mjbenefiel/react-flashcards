@@ -7,8 +7,8 @@
     text-align:center;
     text-decoration:none;
     color: #ecf0f1;
-    box-shadow: 0px 6px #2c3e50;
-    background: #34495e;
+    box-shadow: 0px 6px #959BA1;
+    background: #00A8B6;
     margin: auto;
     margin-top: 20px;
   }
@@ -17,6 +17,6 @@
     border: none;
     position:relative;
     top:3px;
-    box-shadow: 0px 0px #2c3e50;
-    background: #2c3e50;
+    box-shadow: 0px 0px #959BA1;
+    background: #00A8B6;
   }

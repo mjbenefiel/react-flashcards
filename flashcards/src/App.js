@@ -4,6 +4,8 @@ import Card from "./Card/Card";
 import DrawButton from "./DrawButton/DrawButton";
 import firebase from "firebase/app";
 import "firebase/database";
+import HeroHeader from "./Header/HeroHeader.js"
+import Footer from "./Footer/Footer.js"
 
 import { DB_CONFIG } from "./config/firebase/db_config";
 
@@ -12,7 +14,10 @@ class App extends Component {
     super(props);
 
     this.app = firebase.initializeApp(DB_CONFIG);
-    this.database = this.app.database().ref().child('cards');
+    this.database = this.app
+      .database()
+      .ref()
+      .child("cards");
     this.updateCard = this.updateCard.bind(this);
 
     this.updateCard = this.updateCard.bind(this);
@@ -53,6 +58,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <HeroHeader />
+      
         <div className="cardRow">
           <Card
             question={this.state.currentCard.question}
@@ -63,8 +70,11 @@ class App extends Component {
         <div className="buttonRow">
           <DrawButton drawCard={this.updateCard} />
         </div>
+        
       </div>
+      
     );
+    
   }
 }
 
