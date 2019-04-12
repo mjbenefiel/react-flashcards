@@ -11,7 +11,7 @@ const Card = props => (
 
       <div className="back">
 
-      <div className="Answer">Answer</div>
+      <div className="answer">Answer</div>
       </div>
 
     </div>
