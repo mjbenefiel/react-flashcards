@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Card.css";
 
 const Card = props => (
@@ -6,12 +6,12 @@ const Card = props => (
     <div className="card">
       <div className="front">
 
-      <div className="question">Question</div>
+      <div className="question">{props.question}</div>
       </div>
 
       <div className="back">
 
-      <div className="answer">Answer</div>
+      <div className="answer">{props.answer}</div>
       </div>
 
     </div>
