@@ -5,7 +5,7 @@ import DrawButton from "./DrawButton/DrawButton";
 import firebase from "firebase/app";
 import "firebase/database";
 import HeroHeader from "./Header/HeroHeader.js"
-import Footer from "./Footer/Footer.js"
+
 
 import { DB_CONFIG } from "./config/firebase/db_config";
 
