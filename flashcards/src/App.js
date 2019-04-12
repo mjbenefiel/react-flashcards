@@ -11,7 +11,7 @@ class App extends Component {
   constructor(props) {
     super(props);
 
-   this.app = firebase.initializeApp(DB_CONFIG);
+    this.app = firebase.initializeApp(DB_CONFIG);
     this.database = this.app.database().ref().child('cards');
     this.updateCard = this.updateCard.bind(this);
 
