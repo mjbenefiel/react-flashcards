@@ -2,105 +2,35 @@
     "cards": [
         {
             "id": 1,
-            "question": "to be",
-            "answer": "是"
+            "question": "What is the Universal Data Hub (UDH)?",
+            "answer": "The Universal Data Hub (UDH) is a single approach to collecting and managing data and making it available to every customer touchpoint and marketing technology vendor in real time and fuels exceptional customer experiences and insights."
             
         },
         {
             "id": 2,
-            "question": "to be2",
-            "answer": "是"
+            "question": "What is Tag Management?",
+            "answer": "Tag Management is a web interface that is used to manage your tags without the need to edit your page code. In this interface, you will configure your vendor tags to suit your business needs. Tag management allows you to remove hard-coded tags from your web site and replace them with a single Tealium tag."
         },
         {
             "id": 3,
-            "question": "to be3",
-            "answer": "是"
+            "question": "What is the Data Layer?",
+            "answer": "The Data Layer is the foundation of your Tealium solution and will serve as the one true definition of your data across all digital assets and customer interactions. The data layer comprises all of the various data elements that will be collected across your site and the visitor interactions and events that will be tracked."
         },
         {
             "id": 4,
-            "question": "to be4",
-            "answer": "是"
+            "question": "What is the Universal Data Object(UDO)?",
+            "answer": "JavaScript object called utag_data in which dynamic data from your webpage is passed to the Tealium tag. The properties in this object are named using plain-English, vendor neutral terms that are specific to your business."
         },
         {
             "id": 5,
-            "question": "to be5",
-            "answer": "是"
+            "question": "What is utag.js?",
+            "answer": "All tag configuration and business logic saved in your iQ account/profile is converted to JavaScript code and published to a utag.js JavaScript library specific to your account/profile and hosted on our multi-CDN infrastructure. When the Universal Tag code snippet is executed by your webpage a request is made to the CDN, the file is downloaded into the page and the code is run. As soon as utag.js is loaded on your page it begins executing code to prepare to fire your tags."
+    
         },
         {
             "id": 6,
-            "question": "to be6",
-            "answer": "是"
-        },
-        {
-            "id": 7,
-            "question": "to be7",
-            "answer": "是"
-        },
-        {
-            "id": 8,
-            "question": "to be8",
-            "answer": "是"
-        },
-        {
-            "id": 9,
-            "eng": "that9",
-            "han": "那",
-            "pin": "nà"
-        },
-        {
-            "id": 10,
-            "question": "to be10",
-            "answer": "是"
-        },
-        {
-            "id": 11,
-            "question": "to be11",
-            "answer": "是"
-        },
-        {
-            "id": 12,
-            "question": "to be12",
-            "answer": "是"
-        },
-        {
-            "id": 13,
-            "question": "to be13",
-            "answer": "是"
-        },
-        {
-            "id": 14,
-            "question": "to be14",
-            "answer": "是"
-        },
-        {
-            "id": 15,
-            "question": "to be15",
-            "answer": "是"
-        },
-        {
-            "id": 16,
-            "question": "to be16",
-            "answer": "是"
-        },
-        {
-            "id": 17,
-            "question": "to be17",
-            "answer": "是"
-        },
-        {
-            "id": 18,
-            "question": "to be18",
-            "answer": "是"
-        },
-        {
-            "id": 19,
-            "question": "to be19",
-            "answer": "是"
-        },
-        {
-            "id": 20,
-            "question": "to be20",
-            "answer": "是"
+            "question": "What is a tag?",
+            "answer": "A tag is a term used in the web technology and analytics industry to describe a small snippet of code that is placed on a website for the purpose of tracking important visitor activity. Tags are also known as tracking pixels or web beacons. Tags are commonly used by marketers to measure the effectiveness of online advertising, email marketing, site personalization, and conversion tracking (among many other uses). This is accomplished via data sharing wherein contextual information from the webpage is passed to the tag in accordance with the vendor's formatting requirements. The most common methodology for implementing a tag onto a website is to use a small snippet of JavaScript code."
         }
     ]
 }

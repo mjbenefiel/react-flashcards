@@ -1,7 +1,7 @@
 .card-container {
     cursor: pointer;
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     /* perspective: 800px; */
     position: relative;
     margin: auto;
@@ -9,22 +9,23 @@
   }
   
   .card {
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     position: absolute;
-    /* border: 1px solid #300; */
+    border-bottom: 1px solid #959BA1;
+    border-top: 1px solid #959BA1;
     transform-style: preserve-3d;
     transition: all 0.4s ease-in-out;
   }
   
   .card:active {
     transform: rotateY(180deg);
-    transition: all 0.0s ease-in-out;
+    transition: all 0.4s ease-in-out;
   }
   
   .card .front {
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     backface-visibility: hidden;
     position: absolute;
     overflow: hidden;
@@ -33,23 +34,25 @@
   }
   
   .card .back {
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     text-align: center;
     transform: rotateY(180deg);
     /* background-color:#959BA1; */
   }
   
   .question{
-    color: #333;
-    font-size: 2.3em;
+    color: #959BA1;
+    font-size: 2.0em;
     padding-top: 40%;
+    font-family: 'Muli';
   }
   
   .answer{
-    color: #333;
-    font-size: 6.3em;
+    color: #007CC2;;
+    font-size: 1.2em;
     padding-top: 20%;
+    font-family: 'Muli';
   }
   
   .pin{
