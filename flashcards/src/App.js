@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import Card from "./Card/Card";
 import DrawButton from "./DrawButton/DrawButton";
-import Firebase from "firebase/app";
+import firebase from "firebase/app";
 import "firebase/database";
 
 import { DB_CONFIG } from "./config/firebase/db_config";
@@ -11,8 +11,9 @@ class App extends Component {
   constructor(props) {
     super(props);
 
+   this.app = firebase.initializeApp(DB_CONFIG);
     this.database = this.app.database().ref().child('cards');
-    this.app = firebase.initializeApp(DB_CONFIG);
+    this.updateCard = this.updateCard.bind(this);
 
     this.updateCard = this.updateCard.bind(this);
 
@@ -24,10 +25,16 @@ class App extends Component {
 
   componentWillMount() {
     const currentCards = this.state.cards;
-
-    this.setState({
-      cards: currentCards,
-      currentCard: this.getRandomCard(currentCards)
+    this.database.on("child_added", snap => {
+      currentCards.push({
+        id: snap.key,
+        question: snap.val().question,
+        answer: snap.val().answer
+      });
+      this.setState({
+        cards: currentCards,
+        currentCard: this.getRandomCard(currentCards)
+      });
     });
   }
 
