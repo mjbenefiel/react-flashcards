@@ -13,12 +13,12 @@
     width: 500px;
     position: absolute;
     border-bottom: 1px solid #959BA1;
-    border-top: 1px solid #959BA1;
+    /* border-top: 1px solid #959BA1; */
     transform-style: preserve-3d;
     transition: all 0.4s ease-in-out;
   }
   
-  .card:active {
+  .card:hover {
     transform: rotateY(180deg);
     transition: all 0.4s ease-in-out;
   }
