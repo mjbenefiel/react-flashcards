@@ -1,0 +1,106 @@
+{
+    "cards": [
+        {
+            "id": 1,
+            "question": "to be",
+            "answer": "是"
+            
+        },
+        {
+            "id": 2,
+            "question": "to be2",
+            "answer": "是"
+        },
+        {
+            "id": 3,
+            "question": "to be3",
+            "answer": "是"
+        },
+        {
+            "id": 4,
+            "question": "to be4",
+            "answer": "是"
+        },
+        {
+            "id": 5,
+            "question": "to be5",
+            "answer": "是"
+        },
+        {
+            "id": 6,
+            "question": "to be6",
+            "answer": "是"
+        },
+        {
+            "id": 7,
+            "question": "to be7",
+            "answer": "是"
+        },
+        {
+            "id": 8,
+            "question": "to be8",
+            "answer": "是"
+        },
+        {
+            "id": 9,
+            "eng": "that9",
+            "han": "那",
+            "pin": "nà"
+        },
+        {
+            "id": 10,
+            "question": "to be10",
+            "answer": "是"
+        },
+        {
+            "id": 11,
+            "question": "to be11",
+            "answer": "是"
+        },
+        {
+            "id": 12,
+            "question": "to be12",
+            "answer": "是"
+        },
+        {
+            "id": 13,
+            "question": "to be13",
+            "answer": "是"
+        },
+        {
+            "id": 14,
+            "question": "to be14",
+            "answer": "是"
+        },
+        {
+            "id": 15,
+            "question": "to be15",
+            "answer": "是"
+        },
+        {
+            "id": 16,
+            "question": "to be16",
+            "answer": "是"
+        },
+        {
+            "id": 17,
+            "question": "to be17",
+            "answer": "是"
+        },
+        {
+            "id": 18,
+            "question": "to be18",
+            "answer": "是"
+        },
+        {
+            "id": 19,
+            "question": "to be19",
+            "answer": "是"
+        },
+        {
+            "id": 20,
+            "question": "to be20",
+            "answer": "是"
+        }
+    ]
+}
