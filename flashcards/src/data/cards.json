@@ -19,7 +19,7 @@
         {
             "id": 4,
             "question": "What is the Universal Data Object(UDO)?",
-            "answer": "JavaScript object called utag_data in which dynamic data from your webpage is passed to the Tealium tag. The properties in this object are named using plain-English, vendor neutral terms that are specific to your business."
+            "answer": "Core of data layer. JavaScript object called utag_data in which dynamic data from your webpage is passed to the Tealium tag. The properties in this object are named using plain-English, vendor neutral terms that are specific to your business."
         },
         {
             "id": 5,
