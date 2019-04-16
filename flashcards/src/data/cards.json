@@ -31,6 +31,56 @@
             "id": 6,
             "question": "What is a tag?",
             "answer": "A tag is a term used in the web technology and analytics industry to describe a small snippet of code that is placed on a website for the purpose of tracking important visitor activity. Tags are also known as tracking pixels or web beacons. Tags are commonly used by marketers to measure the effectiveness of online advertising, email marketing, site personalization, and conversion tracking (among many other uses). This is accomplished via data sharing wherein contextual information from the webpage is passed to the tag in accordance with the vendor's formatting requirements. The most common methodology for implementing a tag onto a website is to use a small snippet of JavaScript code."
+        },
+        {
+            "id": 7,
+            "question": "What is an enrichment?",
+            "answer": "An enrichment is the application of business logic that transforms data from a static value into a dynamic one."
+        },
+        {
+            "id": 8,
+            "question": "What is the Tealium Collect Tag?",
+            "answer": "The Tealium Collect tag is Tealium's primary data collection tag."
+        },
+        {
+            "id": 9,
+            "question": "What is an Audience?",
+            "answer": "An audience is a collection of visitor profiles that have acquired a shared set of attributes during their engagement with your brand. An audience is the target of a real-time action from one of the many integrations available in the AudienceStream ecosystem"
+        },
+        {
+            "id": 10,
+            "question": "What is a connector?",
+            "answer": "A connector is a technical integration between a vendor and Tealium to transmit data in real-time."
+        },
+        {
+            "id": 11,
+            "question": "What types of data are handled by connectors?",
+            "answer": "audience and event"
+        },
+        {
+            "id": 12,
+            "question": "What is DataAccess?",
+            "answer": "DataAccess is an enterprise data hub solution that extends the power of iQ Tag Manager, AudienceStream, and EventStream by providing longer term storage for data collected from web and mobile touchpoints, online and offline channels, and real-time audiences."
+        },
+        {
+            "id": 13,
+            "question": "What does the Tealium Collect Tag gather? ",
+            "answer": "It will gather the on-page data layer, page performance metrics, and third-party vendor tag status information into a single tracking call to the UDH where that data will begin fueling your visitor profiles and audiences, cloud-based connectors, and data storage solutions."
+        },
+        {
+            "id": 14,
+            "question": "What is a data source? ",
+            "answer": "A data source is any system that sends data to the UDH. These systems include websites, native mobile applications, or any custom application that contains visitor event data to be collected."
+        },
+        {
+            "id": 14,
+            "question": "What is Tealium?",
+            "answer": "A single approach to managing data across teams, vendors and customer touch points in real time. "
+        },
+        {
+            "id": 15,
+            "question": "What is an event specification?",
+            "answer": "Event specifications are a way to organize and validate the quality of incoming data. Event specifications represent your data layer in the Universal Data Hub (UDH). Events entering the UDH are identified by the tealium_event attribute."
         }
     ]
 }
