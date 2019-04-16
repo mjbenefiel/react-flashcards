@@ -81,6 +81,41 @@
             "id": 15,
             "question": "What is an event specification?",
             "answer": "Event specifications are a way to organize and validate the quality of incoming data. Event specifications represent your data layer in the Universal Data Hub (UDH). Events entering the UDH are identified by the tealium_event attribute."
+        },
+        {
+            "id": 16,
+            "question": "What are attributes?",
+            "answer": "Attributes are the foundation of your implementation and are used to help you understand your customers' behavior and interaction with your brand. An Attribute captures information about a visitor's habits, preferences, actions, etc. These attributes can come from websites, mobile apps, or even offline data sources. Attributes can store everything from First Name and Email Address to Last Login Date and Lifetime Total Spend. "
+        },
+        {
+            "id": 17,
+            "question": "What are the properties of an attribute?",
+            "answer": "Scope. Data Type. Enrichments. Rules."
+        },
+        {
+            "id": 18,
+            "question": "What is a rule?",
+            "answer": "A rule provides additional logic for the purpose of triggering an enrichment."
+        },
+        {
+            "id": 19,
+            "question": "What is a badge?",
+            "answer": "Badges represent visitor behavior patterns that are relevant to your business. A behavior is defined using attributes and rules that describe its conditions. For example, you might be interested in identifying frequent visitors that have browsed your site but not made a purchase."
+        },
+        {
+            "id": 20,
+            "question": "What is Data Layer Enrichment?",
+            "answer": "Data Layer Enrichment imports your AudienceStream attributes into your Tealium iQ account and makes them available as part of your data layer. The customer data collected in AudienceStream is populated in the data layer on your website. Those attributes can then be used in load rules, extensions, and tags in your iQ account to create personalized experiences for your customers."
+        },
+        {
+            "id": 21,
+            "question": "What is AudienceStream?",
+            "answer": "AudienceStream is an omnichannel customer segmentation and real-time action engine.  AudienceStream takes the data that flows into EventStream and creates visitor profiles that represent the most important attributes of your customers' engagement with your brand."
+        },
+        {
+            "id": 22,
+            "question": "What is a Visitor Profile?",
+            "answer": "A Visitor Profile is a unified view of a customer across all touchpoints (web, mobile, email, etc.). By using a special attribute called a 'Visitor ID', AudienceStream can identify the same customer across many different platforms."
         }
     ]
 }
